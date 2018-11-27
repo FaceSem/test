@@ -814,7 +814,7 @@ body {
 }
 .around-box{
 	position: relative;
-	height: 100%;
+	min-height: 400px;
 	width: 530px;
 	margin-top: 5%;
 	margin-left: 10px;
