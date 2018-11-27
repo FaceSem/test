@@ -1,0 +1,123 @@
+/*Responsive*/
+
+@media screen and (min-width: 860px) and (max-width: 1024px) {
+	.section-facts-1 img{
+		width: 310px;
+	}
+	.section-facts-1 .text-box{
+		font-size: 16px;
+	}
+	.section-facts-1{
+		height: 350px;
+	}
+}
+@media screen and  (max-width: 860px) {
+	.section-facts-1 img{
+		width: 280px;
+	}
+	.section-facts-1 .text-box{
+		font-size: 14px;
+	}
+	.section-facts-1{
+		height: 300px;
+	}
+} 
+@media screen and (max-width: 1024px) {
+	.comparison-block{
+		padding-left: 0px;
+	}
+	.details-information{
+		margin: 0;
+	}
+	.row-element p{
+		width: auto;
+		margin-left: 20%;
+		font-size: 12px;
+	}
+	.info-about{
+		margin-left: 20%;
+	}
+	.details-information h4{
+		margin-left: 20%;
+	}
+	.blue-line{
+		margin-left: 20%;
+	}
+	.details-information h3{
+		font-size: 20px;
+		margin-left: 20%;
+	}
+	.chemistry-image img{
+		width: 120px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.circle-animation-1{
+		left: 21px;
+	}
+	.circle-animation-2{
+		left: -190px;
+		bottom: -55px;
+	}
+	.c-block-1 h3 {
+	    bottom: -34px;
+	}
+	.brg-technol p{
+		left: 40px;
+	}
+	.around-box{
+		width: 500px;
+	}
+	.around-box img{
+		width: 150px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.block-2-section-5 .text-block-tab table .text-normal .txt-center{
+		font-size: 12px;
+	}
+	.block-2-section-5 .text-block-tab table tr td{
+		font-size: 12px;
+	}
+	.text-block-tab .tab li{
+		font-size: 14px;
+	}
+	.section-facts-6 .bioactive-cmp p{
+		margin-right: 2vw;
+	}
+	.tab-block-6 li{
+		font-size: 14px;
+	}
+	.paper-2{
+		padding: 5% 15%; 
+	}
+	.tab-section-7 li{
+		font-size: 14px;
+	}
+	.tab-section-7 li:after{
+		content: none;
+	}
+	.tabcontent-section-7{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.tabcontent-section-7 p{
+		font-size: 11px!important;
+	}
+	.section-7-block-buffer-1{
+		padding-left: 0;
+	}
+	.hexagons .box-8 {
+	    bottom: 0;
+	    right: 14px;
+	}
+	.hexagons .box-9 {
+	    bottom: 0;
+	    right: 120px;
+	}
+	.hexagons .box-6 {
+	    bottom: 86px;
+	    left: 235px;
+	}
+}
