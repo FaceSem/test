@@ -291,8 +291,8 @@ position:fixed;
 }
 
 .hexagons .box-8{
-	bottom: 47px;
-    right: 295px;
+	bottom: 45px;
+    right: 330px;
 }
 .hexagons .box-8 span{
 	position: relative;
@@ -301,11 +301,11 @@ position:fixed;
     z-index: 99;
 }
 .hexagons .box-9{
-	bottom: 134px;
-    right: 223px;
+	bottom: 125px;
+    right: 248px;
 }
 .hexagons .box-10{
-	bottom: 5px;
+	bottom: 48px;
     right: 252px;
 }
     
