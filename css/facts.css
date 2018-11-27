@@ -1452,4 +1452,8 @@ table .text-normal div p{
 	top: 18px;
 	left: 31px;
 }
+.tab-section-7 li:last-child:after{
+	content: none;
+}
+
 
