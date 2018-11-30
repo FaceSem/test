@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../css/fonts/OpenSans-Regular.ttf");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../css/fonts/OpenSans-Semibold.ttf");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../css/fonts/OpenSans-Light.ttf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../css/fonts/OpenSans-Bold.ttf");
+  font-weight: 700; }
+
+/*// @media screen and  (min-width: 768px) {
+//     .desktop {
+//         display: block !important;
+//     }
+// }*/
+.row-element {
+  width: 100%; }
+  .row-element p {
+    width: 75%;
+    margin: 5% 5% 3% 5%; }
+
+.total-black-bckg {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 0px 4px; }
+
+.img-block {
+  text-align: center; }
+  .img-block p {
+    color: #282828;
+    font-family: 'Open Sans';
+    word-spacing: 7px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px; }
+  .img-block img {
+    text-align: center;
+    border-radius: 100%;
+    width: 100px;
+    box-shadow: 0px 14px 95px -4px #8a6a96; }
+
+.text-block {
+  font-family: 'Open Sans';
+  word-spacing: 7px;
+  color: #505050;
+  font-weight: 500;
+  font-size: 14px; }
+
+.a {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed; }
+
+.position-fl {
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+
+.text-block {
+  font-family: 'Open Sans';
+  word-spacing: 7px;
+  color: #505050;
+  font-weight: 500;
+  font-size: 14px; }
+
+.green-line {
+  border-bottom: 5px solid #ACFFC2;
+  width: 17%; }
+
+.blue-line {
+  border-bottom: 7px solid #98CAFE;
+  width: 17%;
+  margin-top: 0 !important;
+  margin-left: 10%; }

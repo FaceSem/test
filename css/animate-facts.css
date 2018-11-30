@@ -278,10 +278,10 @@
 }
 
 .cloud-image {  
-    animation-name: floating;
-    animation-duration: 2s;
+    animation-name: floating_1;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 .rotate-img{
 	animation-name: floating;
@@ -294,6 +294,12 @@
   	50%{ transform: rotate(20deg);}
   	100%{ transform: rotate(-10deg);}
 }
+@-webkit-keyframes floating_1 {
+    0% { transform: translateY(-15px); }
+    50% { transform: translateY(15px); }
+    100% { transform: translateY(-15px); }
+}
+
 
 
 /*Delay with images*/

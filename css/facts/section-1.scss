@@ -1,0 +1,75 @@
+.section-facts-1 {
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+    height: 380px;
+    background-color: #F6F9FF;
+    background-position-y: bottom;
+    .image-background {
+        width: 100vw;
+        height:225px;
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        background-color: rgb(246, 255, 224);
+        background: url(../../img/facts/111.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    #instruments {
+        position: absolute;
+        right: 115px;
+        top: 105px;
+    }
+    .cloud-image {
+        position: absolute;
+        top: 80px;
+        left: 90px;
+    }
+    img {
+        width: 415px;
+    }
+    .text-box {
+        font-family: 'Open Sans';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .text-box {
+        font-family: 'Open Sans';
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        top: 77px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 860px) and (max-width: 1025px) {
+	.section-facts-1{
+        height: 350px;
+        img{
+            width: 310px;
+        }
+        .text-box{
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and  (max-width: 860px) {
+    .section-facts-1{
+        height: 300px;
+        img{
+            width: 280px;
+        }
+        .text-box{
+            font-size: 14px;
+        }
+    }
+} 

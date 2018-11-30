@@ -1,0 +1,250 @@
+.section-facts-5 {
+  padding-top: 5%; }
+  .section-facts-5 .block-1-section-5 .text-block {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 13%;
+    background-color: #eff2f6;
+    background-image: -webkit-linear-gradient(86deg, #eff2f6 15%, #F6F9FF 6%); }
+    .section-facts-5 .block-1-section-5 .text-block .around-box {
+      position: relative;
+      height: 530px;
+      width: 530px;
+      margin-top: -70px;
+      margin-left: 10px; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-1,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-2,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-3,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-4,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-5,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6,
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-7 {
+        position: absolute;
+        animation: flash 7s infinite; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-1 {
+        bottom: -21px;
+        left: 0;
+        animation-delay: 1s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-1 span {
+          top: 8vh;
+          left: 4vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-2 {
+        bottom: 165px;
+        left: 0;
+        animation-delay: 2s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-2 span {
+          top: 13vh;
+          left: 3vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-3 {
+        bottom: 100px;
+        left: 177px;
+        animation-name: floating;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-3 span {
+          bottom: -7vh;
+          left: 3vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-4 {
+        bottom: 257px;
+        left: 82px;
+        animation-delay: 3s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-4 span {
+          bottom: 10vh;
+          left: 6vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-5 {
+        bottom: 257px;
+        right: 82px;
+        animation-delay: 4s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-5 span {
+          bottom: 10vh;
+          left: 1vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6 {
+        bottom: 165px;
+        right: 0;
+        animation-delay: 5s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6 span {
+          bottom: 8vh;
+          left: 4vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-7 {
+        right: 0;
+        bottom: -21px;
+        animation-delay: 6s; }
+        .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-7 span {
+          bottom: 15vh;
+          left: 6vw; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box span {
+        position: absolute;
+        color: #282828;
+        font-family: 'Open Sans';
+        word-spacing: 7px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px; }
+  .section-facts-5 .block-2-section-5 {
+    background-color: #eff2f6;
+    padding-bottom: 5%; }
+    .section-facts-5 .block-2-section-5 .text-block-tab {
+      display: flex;
+      flex-direction: row; }
+      .section-facts-5 .block-2-section-5 .text-block-tab .tab-box-text {
+        font-family: 'Open Sans';
+        word-spacing: 7px;
+        color: #505050;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 5% 5% 3% 5%; }
+      .section-facts-5 .block-2-section-5 .text-block-tab .bubbles-right {
+        position: relative; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .bubbles-right img {
+          width: 245px;
+          position: absolute;
+          top: -100px;
+          right: 11vw; }
+      .section-facts-5 .block-2-section-5 .text-block-tab .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+        border-collapse: collapse;
+        background-color: #e2efd6;
+        padding: 0;
+        padding-right: 7px;
+        margin-left: 7px;
+        -webkit-box-shadow: 10px 10px 41px 0px rgba(151, 153, 155, 0.75);
+        -moz-box-shadow: 10px 10px 41px 0px rgba(151, 153, 155, 0.75);
+        box-shadow: 10px 10px 41px 0px rgba(151, 153, 155, 0.75); }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tabcontent .txt-center {
+          text-align: center;
+          font-weight: bold; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tabcontent .light-green {
+          background-color: #d4ffe0; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tabcontent .light-white {
+          background-color: #f6f9fb; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tabcontent .light-yellow {
+          background-color: #e2efd6; }
+      .section-facts-5 .block-2-section-5 .text-block-tab table th {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Open Sans';
+        padding-top: 1vh; }
+      .section-facts-5 .block-2-section-5 .text-block-tab table td {
+        font-size: 15px;
+        padding: 9% 0;
+        font-family: 'Open Sans'; }
+      .section-facts-5 .block-2-section-5 .text-block-tab table .text-normal {
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 1vw;
+        display: flex;
+        align-items: center; }
+        .section-facts-5 .block-2-section-5 .text-block-tab table .text-normal .txt-center {
+          padding-right: 1vw;
+          font-size: 15px;
+          font-weight: bold; }
+        .section-facts-5 .block-2-section-5 .text-block-tab table .text-normal div p {
+          margin: 0; }
+      .section-facts-5 .block-2-section-5 .text-block-tab .tab {
+        display: flex;
+        flex-direction: column; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tab li:hover {
+          box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1); }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tab li {
+          background-color: inherit;
+          float: left;
+          width: 40%;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 5px;
+          transition: 0.3s;
+          font-size: 17px;
+          font-weight: bold;
+          font-family: 'Open Sans'; }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tab li.active {
+          padding: 5px;
+          background: #fff;
+          border-radius: 2px;
+          box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1); }
+        .section-facts-5 .block-2-section-5 .text-block-tab .tab li.active:before {
+          content: '';
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          margin-left: 5px;
+          margin-right: 10px;
+          opacity: 1;
+          z-index: 1;
+          position: relative;
+          background: #acffc2; }
+    .section-facts-5 .block-2-section-5 h3 {
+      font-family: 'Open Sans';
+      word-spacing: 7px;
+      color: #505050;
+      font-weight: bold;
+      font-size: 14px;
+      margin-left: 5%; }
+
+@media screen and (max-width: 1024px) {
+  .section-facts-5 .block-1-section-5 .text-block .row-element p {
+    padding-right: 0 !important; }
+  .section-facts-5 .block-1-section-5 .text-block .around-box {
+    width: 475px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box span {
+      font-size: 16px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box img {
+      width: 150px;
+      height: 150px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-1 {
+      bottom: -21px;
+      left: 0; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-1 span {
+        top: 45px;
+        left: 45px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-2 {
+      bottom: 140px;
+      left: 0; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-2 span {
+        top: 80px;
+        left: 35px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-4 {
+      bottom: 216px;
+      left: 80px; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-4 span {
+        top: 60px;
+        left: 70px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-5 {
+      bottom: 217px;
+      left: 240px; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-5 span {
+        top: 45px;
+        left: 20px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6 {
+      bottom: 138px;
+      left: 318px; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-6 span {
+        top: 65px;
+        left: 55px; }
+    .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-7 {
+      left: 317px;
+      bottom: -21px; }
+      .section-facts-5 .block-1-section-5 .text-block .around-box .box-arnd-7 span {
+        top: 45px;
+        left: 65px; }
+  .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) {
+    margin: 10px; }
+    .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) ul {
+      margin: 0; }
+      .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) ul li {
+        font-size: 15px;
+        width: 70%; }
+    .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) .text-normal {
+      font-size: 12px; }
+      .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) .text-normal .txt-center {
+        font-size: 14px; }
+    .section-facts-5 .block-2-section-5 .text-block-tab:nth-child(2) table th {
+      font-size: 14px; } }

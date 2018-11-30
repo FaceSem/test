@@ -1,0 +1,58 @@
+.section-facts-1 {
+  position: relative;
+  margin-top: 40px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  height: 380px;
+  background-color: #F6F9FF;
+  background-position-y: bottom; }
+  .section-facts-1 .image-background {
+    width: 100vw;
+    height: 225px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    background-color: #f6ffe0;
+    background: url(../../img/facts/111.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .section-facts-1 #instruments {
+    position: absolute;
+    right: 115px;
+    top: 105px; }
+  .section-facts-1 .cloud-image {
+    position: absolute;
+    top: 80px;
+    left: 90px; }
+  .section-facts-1 img {
+    width: 415px; }
+  .section-facts-1 .text-box {
+    font-family: 'Open Sans';
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .section-facts-1 .text-box {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    top: 77px;
+    width: 100%; }
+
+@media screen and (min-width: 860px) and (max-width: 1025px) {
+  .section-facts-1 {
+    height: 350px; }
+    .section-facts-1 img {
+      width: 310px; }
+    .section-facts-1 .text-box {
+      font-size: 16px; } }
+
+@media screen and (max-width: 860px) {
+  .section-facts-1 {
+    height: 300px; }
+    .section-facts-1 img {
+      width: 280px; }
+    .section-facts-1 .text-box {
+      font-size: 14px; } }

@@ -1,0 +1,177 @@
+.section-facts-6 {
+  padding-top: 5%; }
+  .section-facts-6 .text-block {
+    display: flex;
+    flex-direction: row; }
+  .section-facts-6 .block-1-section-6 .position-fl p {
+    text-align: justify; }
+  .section-facts-6 .block-1-section-6 #bckgr-section-6 {
+    background-image: -webkit-linear-gradient(94deg, #eff2f6 23%, #eefff0 19%); }
+    .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block {
+      display: flex; }
+      .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to {
+        position: relative; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to img {
+          width: 280px;
+          position: absolute;
+          left: 65px;
+          top: 20px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span {
+          font-weight: bold;
+          position: absolute; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span:nth-child(2) {
+          top: 74px;
+          left: 172px;
+          transform: rotate(74deg); }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span:nth-child(3) {
+          top: 65px;
+          left: 139px;
+          transform: rotate(54deg); }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span:nth-child(4) {
+          top: 90px;
+          left: 111px;
+          transform: rotate(35deg); }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span:nth-child(5) {
+          top: 138px;
+          width: 150px;
+          left: 87px;
+          font-size: 12px;
+          transform: rotate(13deg); }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .img-up-to span:nth-child(6) {
+          top: 167px;
+          left: 124px;
+          transform: rotate(-10deg); }
+      .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin: -10px auto 180px auto; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles span {
+          font-weight: bold; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon {
+          position: absolute; }
+          .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon span {
+            position: absolute;
+            font-size: 20px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon:nth-child(1) span {
+          left: 75px;
+          top: 86px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon:nth-child(3) span {
+          left: 60px;
+          top: 95px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon:nth-child(6) span {
+          left: 44px;
+          top: 86px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon:nth-child(7) span {
+          left: 40px;
+          top: 100px; }
+        .section-facts-6 .block-1-section-6 #bckgr-section-6 .bubbles-block .container-bubbles .balloon:nth-child(9) span {
+          left: 30px;
+          top: 105px; }
+  .section-facts-6 .block-2-section-6 {
+    background-color: #eff2f6;
+    padding-bottom: 5%; }
+    .section-facts-6 .block-2-section-6 .bioactive-cmp {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: #eff2f6;
+      padding-bottom: 5%; }
+      .section-facts-6 .block-2-section-6 .bioactive-cmp img {
+        width: 160px; }
+      .section-facts-6 .block-2-section-6 .bioactive-cmp p {
+        margin-right: 19vw;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        line-height: 30px;
+        padding-left: 4px; }
+      .section-facts-6 .block-2-section-6 .bioactive-cmp .fnt-size-1 {
+        font-size: 15px; }
+      .section-facts-6 .block-2-section-6 .bioactive-cmp .fnt-size-2 {
+        font-size: 17px; }
+      .section-facts-6 .block-2-section-6 .bioactive-cmp .fnt-size-3 {
+        font-size: 14px; }
+    .section-facts-6 .block-2-section-6 .section-6-blue-line {
+      border: 2px solid #00d1f0;
+      width: 30%; }
+    .section-facts-6 .block-2-section-6 .paper-1 {
+      background-color: #c8c4bf;
+      transform: rotate(5deg);
+      margin-left: 1vw;
+      width: 95%; }
+    .section-facts-6 .block-2-section-6 .paper-2 {
+      background-color: #ffffff;
+      transform: rotate(-5deg);
+      position: relative;
+      display: none;
+      padding: 5% 10%;
+      margin-left: 2vw;
+      -webkit-animation: fadeEffect 1s;
+      animation: fadeEffect 1s; }
+    .section-facts-6 .block-2-section-6 .paper-2:after {
+      content: "";
+      position: absolute;
+      top: -1%;
+      left: 0%;
+      width: 0px;
+      height: 0px;
+      border-top: 69px solid #c8c4bf;
+      border-right: 69px solid transparent; }
+    .section-facts-6 .block-2-section-6 .paper-2:before {
+      content: "";
+      position: absolute;
+      top: -1%;
+      left: 0%;
+      width: 0px;
+      height: 0px;
+      border-bottom: 67px solid #eee;
+      border-left: 67px solid transparent;
+      -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+      box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3); }
+    .section-facts-6 .block-2-section-6 .txt-line {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Open Sans'; }
+    .section-facts-6 .block-2-section-6 .yes {
+      color: #24b47e;
+      text-transform: uppercase; }
+    .section-facts-6 .block-2-section-6 .no {
+      color: #ea2c2c;
+      text-transform: uppercase; }
+    .section-facts-6 .block-2-section-6 .tab-block-6 {
+      display: flex;
+      flex-direction: column; }
+      .section-facts-6 .block-2-section-6 .tab-block-6 li:hover {
+        box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1); }
+      .section-facts-6 .block-2-section-6 .tab-block-6 li {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 80% !important;
+        padding: 5px;
+        transition: 0.3s;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Open Sans'; }
+      .section-facts-6 .block-2-section-6 .tab-block-6 li.active {
+        width: 80% !important;
+        padding: 5px;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1); }
+      .section-facts-6 .block-2-section-6 .tab-block-6 li.active:before {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+        opacity: 1;
+        z-index: 1;
+        position: relative;
+        background: #acffc2; }

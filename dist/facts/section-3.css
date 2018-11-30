@@ -1,0 +1,163 @@
+.section-facts-3 {
+  padding-top: 5%; }
+  .section-facts-3 .text-block {
+    display: flex;
+    flex-direction: row; }
+    .section-facts-3 .text-block .row-element {
+      position: relative; }
+      .section-facts-3 .text-block .row-element p {
+        margin: 5% 5% 3% 10%; }
+      .section-facts-3 .text-block .row-element .bgrn-section-3 {
+        background-color: #F6F9FF;
+        padding-bottom: 10%; }
+    .section-facts-3 .text-block .circle-1 {
+      width: 100%;
+      height: 100%;
+      background-color: #cecece;
+      top: 0;
+      animation: pulse 5s infinite; }
+    .section-facts-3 .text-block .circle-2 {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      top: 0;
+      animation: pulse-2 5s infinite; }
+    .section-facts-3 .text-block .circle {
+      border-radius: 100px;
+      position: absolute;
+      margin: auto;
+      transform: scale(0);
+      transform-origin: center center;
+      left: 0;
+      z-index: 1; }
+    .section-facts-3 .text-block .circle-animation-1 {
+      top: 20px;
+      position: absolute;
+      left: 105px; }
+      .section-facts-3 .text-block .circle-animation-1 .img-1-animation-sec-3 {
+        width: 170px; }
+      .section-facts-3 .text-block .circle-animation-1 .pd-p {
+        margin: 5% 5% 3% 5% !important; }
+      .section-facts-3 .text-block .circle-animation-1 .brg-technol {
+        position: relative; }
+        .section-facts-3 .text-block .circle-animation-1 .brg-technol p {
+          position: absolute;
+          top: 55px;
+          left: 13px;
+          font-weight: bold;
+          text-align: center; }
+    .section-facts-3 .text-block .circle-animation-2 {
+      position: absolute;
+      bottom: -45px;
+      left: -25px; }
+      .section-facts-3 .text-block .circle-animation-2 .img-2-animation-sec-3 {
+        width: 560px; }
+      .section-facts-3 .text-block .circle-animation-2 .circle-block {
+        position: relative; }
+        .section-facts-3 .text-block .circle-animation-2 .circle-block h3 {
+          position: absolute;
+          min-width: 150px;
+          font-size: 14px !important;
+          word-spacing: 0px !important; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-1,
+      .section-facts-3 .text-block .circle-animation-2 .c-block-2,
+      .section-facts-3 .text-block .circle-animation-2 .c-block-3,
+      .section-facts-3 .text-block .circle-animation-2 .c-block-4,
+      .section-facts-3 .text-block .circle-animation-2 .c-block-5 {
+        position: absolute; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-1 img,
+        .section-facts-3 .text-block .circle-animation-2 .c-block-2 img,
+        .section-facts-3 .text-block .circle-animation-2 .c-block-3 img,
+        .section-facts-3 .text-block .circle-animation-2 .c-block-4 img,
+        .section-facts-3 .text-block .circle-animation-2 .c-block-5 img {
+          width: 60px; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-1 {
+        bottom: 4px;
+        left: 77px; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-1 h3 {
+          bottom: 70px;
+          left: -30px; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-2 {
+        bottom: 17px;
+        left: 192px; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-2 h3 {
+          top: 55px;
+          left: 15px; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-3 {
+        bottom: 42px;
+        right: 197px; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-3 h3 {
+          bottom: 60px;
+          right: -50px; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-4 {
+        bottom: 95px;
+        right: 99px; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-4 h3 {
+          top: 55px; }
+      .section-facts-3 .text-block .circle-animation-2 .c-block-5 {
+        bottom: 175px;
+        right: 21px; }
+        .section-facts-3 .text-block .circle-animation-2 .c-block-5 h3 {
+          bottom: 35px;
+          right: -15px; }
+
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+  .section-facts-3 .text-block .circle-animation-1 {
+    left: 50px; }
+  .section-facts-3 .text-block .circle-animation-2 {
+    left: -70px;
+    bottom: -30px; }
+    .section-facts-3 .text-block .circle-animation-2 .circle-block h3 {
+      font-size: 12px !important; }
+  .section-facts-3 .text-block .brg-technol p {
+    left: 40px; }
+  .section-facts-3 .text-block .around-box {
+    width: 500px; }
+  .section-facts-3 .text-block .around-box img {
+    width: 150px; }
+  .section-facts-3 .text-block .bgrn-section-3 p {
+    font-size: 12px; }
+  .section-facts-3 .discover-btn {
+    font-size: 12px; } }
+
+@media screen and (max-width: 1023px) {
+  .section-facts-3 .text-block .bgrn-section-3 p {
+    font-size: 12px; }
+  .section-facts-3 .text-block .circle-animation-1 {
+    left: 50px;
+    top: 50px; }
+  .section-facts-3 .text-block .circle-animation-2 {
+    left: -70px;
+    bottom: 30px; }
+    .section-facts-3 .text-block .circle-animation-2 .circle-block h3 {
+      font-size: 12px !important; }
+    .section-facts-3 .text-block .circle-animation-2 .img-2-animation-sec-3 {
+      width: 450px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-1 {
+      bottom: 0px;
+      left: 57px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-1 {
+      bottom: -1px;
+      left: 57px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-2 {
+      bottom: 9px;
+      left: 148px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-3 {
+      bottom: 29px;
+      right: 151px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-4 {
+      bottom: 70px;
+      right: 73px; }
+    .section-facts-3 .text-block .circle-animation-2 .c-block-5 {
+      bottom: 134px;
+      right: 12px; }
+  .section-facts-3 .text-block .brg-technol p {
+    left: 40px; }
+  .section-facts-3 .text-block .around-box {
+    width: 500px; }
+  .section-facts-3 .text-block .around-box img {
+    width: 150px; }
+  .section-facts-3 .text-block .row-element:nth-child(2) {
+    margin-left: 20px; }
+  .section-facts-3 .discover-btn {
+    font-size: 12px; } }

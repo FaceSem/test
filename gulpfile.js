@@ -1,6 +1,7 @@
 // grab our gulp packages
 var gulp       = require('gulp'),
-browserSync = require('browser-sync').create()
+browserSync = require('browser-sync').create(),
+sass        = require('gulp-sass');
 
 
 
@@ -17,23 +18,16 @@ gulp.task('default', ['watch', 'reload', 'build-css']);
 
 
 gulp.task('build-css', function() {
-  return gulp.src('css/main.scss')
-  	.pipe(sourcemaps.init())
-  	.pipe(sass())
-    .pipe(autoprefixer())
-    .pipe(sourcemaps.write()) // Add the map to modified source.
-    .pipe(cleanCSS({compatibility: 'ie9'}))
-    .pipe(autoprefixer({
-            browsers: ['last 5 versions'],
-            cascade: false
-        }))
-    .pipe(gulp.dest('dist'));
+  return gulp.src("css/facts/*.scss")
+        .pipe(sass())
+        .pipe(gulp.dest("dist/facts"))
+        .pipe(browserSync.stream());
 });
 
 
 gulp.task("reload", function(){
   browserSync.reload();
-  done();
+  // done();
 })
 
 // configure which files to watch and what tasks to use on file changes

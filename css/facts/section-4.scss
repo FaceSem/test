@@ -1,0 +1,263 @@
+.section-facts-4 {
+    padding-top: 10%;
+    .text-block {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(238, 255, 240);
+        padding-bottom: 5%;
+    }
+    .row-element {
+        p {
+            margin: 10%;
+        }
+    }
+    .hexagons {
+        position: relative;
+        span {
+            color: #282828;
+            font-family: 'Open Sans';
+            word-spacing: 7px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 25px;
+        }
+        .hexagon-1 {
+            position: relative;
+            width: 120px;
+            height: 69.28px;
+            background-color: #BEE8ED;
+            margin: 34.64px 0;
+            transform: rotate(127deg);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+        }
+        .hexagon-1:before,
+        .hexagon-1:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            /*box-shadow: 0 0 10px rgba(0,0,0,0.8);   */
+        }
+        .hexagon-1:before {
+            bottom: 100%;
+            border-bottom: 34.64px solid #BEE8ED;
+        }
+        .hexagon-1:after {
+            top: 100%;
+            width: 0;
+            border-top: 34.64px solid #BEE8ED;
+        }
+        .hexagon-2 {
+            position: relative;
+            width: 50px;
+            height: 28.87px;
+            background-color: #ffffff;
+            margin: 14.43px 0;
+            transform: rotate(127deg);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+        }
+        .hexagon-2:before,
+        .hexagon-2:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+        }
+        .hexagon-2:before {
+            bottom: 100%;
+            border-bottom: 14.43px solid #ffffff;
+        }
+        .hexagon-2:after {
+            top: 100%;
+            width: 0;
+            border-top: 14.43px solid #ffffff;
+        }
+        .hexagon-3 {
+            position: relative;
+            width: 80px;
+            height: 46.19px;
+            background-color: #ffffff;
+            margin: 23.09px 0;
+            transform: rotate(127deg);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+        }
+        .hexagon-3:before,
+        .hexagon-3:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+        }
+        .hexagon-3:before {
+            bottom: 100%;
+            border-bottom: 23.09px solid #ffffff;
+        }
+        .hexagon-3:after {
+            top: 100%;
+            width: 0;
+            border-top: 23.09px solid #ffffff;
+        }
+        .hexagon-4 {
+            position: relative;
+            width: 90px;
+            height: 51.96px;
+            background-color: #ffffff;
+            margin: 25.98px 0;
+            transform: rotate(127deg);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+        }
+        .hexagon-4:before,
+        .hexagon-4:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 45px solid transparent;
+            border-right: 45px solid transparent;
+        }
+        .hexagon-4:before {
+            bottom: 100%;
+            border-bottom: 25.98px solid #ffffff;
+        }
+        .hexagon-4:after {
+            top: 100%;
+            width: 0;
+            border-top: 25.98px solid #ffffff;
+        }
+        .hexagon-5 {
+            position: relative;
+            width: 120px;
+            height: 69.28px;
+            background-color: #9FFFCA;
+            margin: 34.64px 0;
+            transform: rotate(127deg);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+        }
+        .hexagon-5:before,
+        .hexagon-5:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            /*box-shadow: 0 0 10px rgba(0,0,0,0.8);   */
+        }
+        .hexagon-5:before {
+            bottom: 100%;
+            border-bottom: 34.64px solid #9FFFCA;
+        }
+        .hexagon-5:after {
+            top: 100%;
+            width: 0;
+            border-top: 34.64px solid #9FFFCA;
+        }
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4,
+        .box-5,
+        .box-6,
+        .box-7,
+        .box-2,
+        .box-8,
+        .box-9,
+        .box-10 {
+            position: absolute;
+        }
+        .box-1 {
+            top: -23px;
+            left: 46px;
+        }
+        .box-1 span {
+            position: relative;
+            top: 82px;
+            left: 35px;
+            z-index: 99;
+        }
+        .box-2 {
+            top: 198px;
+            left: 61px;
+        }
+        .box-3 {
+            top: 99px;
+            left: 112px;
+        }
+        .box-3 span {
+            position: relative;
+            top: 60px;
+            left: 21px;
+            z-index: 99;
+        }
+        .box-4 {
+            top: 13px;
+            left: 174px;
+        }
+        .box-4 span {
+            position: relative;
+            top: 63px;
+            left: 24px;
+            z-index: 99;
+        }
+        .box-5 {
+            bottom: 70px;
+            left: 136px;
+        }
+        .box-5 span {
+            position: relative;
+            top: 70px;
+            left: 27px;
+            z-index: 99;
+        }
+        .box-6 {
+            bottom: 150px;
+            left: 202px;
+        }
+        .box-6 span {
+            position: relative;
+            top: 81px;
+            left: 11px;
+            z-index: 99;
+        }
+        .box-7 {
+            top: 19px;
+            left: 301px;
+        }
+        .box-7 span {
+            position: relative;
+            top: 66px;
+            left: 31px;
+            z-index: 99;
+        }
+        .box-8 {
+            bottom: 47px;
+            left: 260px;
+        }
+        .box-8 span {
+            position: relative;
+            top: 66px;
+            left: 31px;
+            z-index: 99;
+        }
+        .box-9 {
+            bottom: 134px;
+            left: 350px;
+        }
+        .box-10 {
+            bottom: 5px;
+            left: 390px;
+        }
+    }
+    .total-black-bckg {
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 0 2%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .section-facts-4 {
+        padding-top: 10%;
+    }
+}

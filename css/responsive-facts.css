@@ -1,6 +1,6 @@
 /*Responsive*/
 
-@media screen and (min-width: 860px) and (max-width: 1024px) {
+/* @media screen and (min-width: 860px) and (max-width: 1024px) {
 	.section-facts-1 img{
 		width: 310px;
 	}
@@ -21,8 +21,8 @@
 	.section-facts-1{
 		height: 300px;
 	}
-} 
-@media screen and (max-width: 1024px) {
+}  */
+/* @media screen and (max-width: 1024px) {
 	.comparison-block{
 		padding-left: 0px;
 	}
@@ -50,8 +50,8 @@
 	.chemistry-image img{
 		width: 120px;
 	}
-}
-@media screen and (max-width: 1024px) {
+} */
+/* @media screen and (max-width: 1024px) {
 	.circle-animation-1{
 		left: 21px;
 	}
@@ -71,7 +71,7 @@
 	.around-box img{
 		width: 150px;
 	}
-}
+} */
 @media screen and (max-width: 1024px) {
 	.block-2-section-5 .text-block-tab table .text-normal .txt-center{
 		font-size: 12px;
