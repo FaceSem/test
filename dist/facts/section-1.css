@@ -24,7 +24,7 @@
   .section-facts-1 .cloud-image {
     position: absolute;
     top: 80px;
-    left: 90px; }
+    left: 140px; }
   .section-facts-1 img {
     width: 415px; }
   .section-facts-1 .text-box {
@@ -35,7 +35,7 @@
   .section-facts-1 .text-box {
     font-family: 'Open Sans';
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
     color: black;
     text-align: center;
     top: 77px;

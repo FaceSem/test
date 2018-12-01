@@ -132,6 +132,9 @@
             display: flex;
             padding-left: 20%;
             flex-direction: column;
+            li:last-child:after{
+                content: none;
+            }
             li:hover {
                 box-shadow: 0 2px 4px rgba(50, 50, 93, .1);
             }

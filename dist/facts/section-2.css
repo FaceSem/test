@@ -8,8 +8,8 @@
     flex-direction: row;
     overflow: hidden;
     background-color: #ffffff;
-    background-image: -webkit-linear-gradient(80deg, #ffffff 25%, #F6F9FF 26%);
-    min-height: 500px; }
+    background-image: -webkit-linear-gradient(79deg, #ffffff 26%, #F6F9FF 26%);
+    min-height: 840px; }
     .section-facts-2 .block-1 .comparison-block {
       padding-left: 90px;
       background: url(../../img/facts/123.png) no-repeat;
@@ -29,7 +29,7 @@
         box-shadow: 0px 3px 40px 1px #a1a4a7; }
         .section-facts-2 .block-1 .comparison-block .table-facts .comparison {
           position: relative;
-          font-size: 14px;
+          font-size: 20px;
           font-weight: 700;
           font-family: 'Open Sans';
           text-align: center;
@@ -45,9 +45,10 @@
           .section-facts-2 .block-1 .comparison-block .table-facts .comparison p {
             margin: 0px;
             width: 100%;
-            color: #595959; }
+            color: #595959;
+            padding-top: 10px; }
         .section-facts-2 .block-1 .comparison-block .table-facts .comparison-details {
-          font-size: 10px;
+          font-size: 12px;
           font-family: 'Open Sans';
           background-color: #F3F3F3;
           font-weight: 400;
@@ -67,7 +68,7 @@
           width: 100%;
           border-collapse: collapse; }
           .section-facts-2 .block-1 .comparison-block .table-facts table tr {
-            height: 35px;
+            height: 40px;
             border-bottom: 1px solid #D9D6D1;
             font-weight: 700;
             text-align: center;
@@ -76,7 +77,7 @@
           .section-facts-2 .block-1 .comparison-block .table-facts table tr:last-child {
             border: none; }
           .section-facts-2 .block-1 .comparison-block .table-facts table td {
-            line-height: 10px;
+            line-height: 15px;
             color: #595959; }
             .section-facts-2 .block-1 .comparison-block .table-facts table td img {
               box-shadow: 0px 4px 12px 1px #a1a4a7;
@@ -87,12 +88,19 @@
     .section-facts-2 .block-1 .details-information {
       padding-top: 50px;
       margin: 0 70px 0 -19px;
-      font-size: 12px;
-      font-family: 'Open Sans'; }
+      font-size: 12px; }
+      .section-facts-2 .block-1 .details-information .decoration-with-logo {
+        display: flex;
+        align-items: center; }
+        .section-facts-2 .block-1 .details-information .decoration-with-logo img {
+          width: 140px;
+          padding-right: 5px; }
+      .section-facts-2 .block-1 .details-information .discover-btn {
+        margin: 0px 130px 30px 0px; }
       .section-facts-2 .block-1 .details-information h3 {
         font-family: 'Open Sans';
         font-weight: 600;
-        color: #000000;
+        color: #494949;
         margin-bottom: 0px;
         font-size: 25px; }
       .section-facts-2 .block-1 .details-information h4 {
@@ -100,12 +108,12 @@
         font-weight: 600;
         color: #595959;
         margin-bottom: 0px;
-        padding-top: 3%;
+        padding-top: 10px;
         font-size: 20px;
         padding-bottom: 15px; }
       .section-facts-2 .block-1 .details-information p {
         font-family: 'Open Sans';
-        color: #505050;
+        color: #101010;
         font-weight: 300;
         font-size: 14px;
         margin: 0; }
@@ -129,16 +137,19 @@
     background-color: #ffffff;
     position: relative; }
     .section-facts-2 .chemistry-facts .details-chemistry-facts {
-      padding-top: 10%;
       padding-left: 15%;
       width: 45%; }
       .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title {
-        position: relative; }
+        position: relative;
+        margin-top: -40px; }
+        .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title #loading:hover {
+          box-shadow: none !important; }
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title h3 {
           font-family: 'Open Sans';
           font-weight: 600;
           color: #000000;
           margin-bottom: 0px;
+          margin-top: 0;
           font-size: 24px; }
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
           position: absolute;
@@ -151,13 +162,13 @@
         font-size: 14px; }
       .section-facts-2 .chemistry-facts .details-chemistry-facts p {
         font-family: 'Open Sans';
-        color: #505050;
+        color: #101010;
         font-weight: 300;
         font-size: 14px; }
     .section-facts-2 .chemistry-facts .chemistry-image {
       position: absolute;
-      top: 81px;
-      right: 132px; }
+      top: -145px;
+      right: 200px; }
       .section-facts-2 .chemistry-facts .chemistry-image img {
         width: 230px; }
 
