@@ -180,7 +180,7 @@
     margin: 0;
     padding-top: 10px;
     margin-right: 5%; }
-    .details-information img {
+    .details-information .decoration-with-logo img {
       width: 130px !important; }
     .details-information h3 {
       font-size: 25px !important; }
@@ -240,7 +240,7 @@
     font-size: 12px; }
   .section-facts-2 .block-1 .comparison-block {
     padding-left: 10px;
-    margin-right: 70px; }
+    margin-right: 20px; }
     .section-facts-2 .block-1 .comparison-block .table-facts td {
       font-size: 14px; }
       .section-facts-2 .block-1 .comparison-block .table-facts td span {

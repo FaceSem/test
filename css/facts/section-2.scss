@@ -220,8 +220,10 @@
         margin: 0;
         padding-top: 10px;
         margin-right: 5%;
-        img{
-            width: 130px!important;
+        .decoration-with-logo{
+            img{
+                width: 130px!important;
+            } 
         }
         h3{
             font-size: 25px!important;
@@ -330,7 +332,7 @@
             }
             .comparison-block {
                 padding-left: 10px;
-                margin-right: 70px;
+                margin-right: 20px;
                 .table-facts{
                     td{
                         font-size: 14px;
@@ -384,8 +386,8 @@
     .discover-btn {
         font-size: 12px;
     }
-    
-  .details-chemistry-facts{
+
+    .details-chemistry-facts{
         .section-2-title{
             h3{
                 font-size: 25px!important;
