@@ -215,7 +215,29 @@
         }
     }
 }
-
+@media screen and (min-width:1024px) and (max-width: 1260px) {
+     .details-information{
+        margin: 0;
+        padding-top: 10px;
+        margin-right: 5%;
+        img{
+            width: 130px!important;
+        }
+        h3{
+            font-size: 25px!important;
+        }
+    }
+    .details-chemistry-facts{
+        .section-2-title{
+            h3{
+                font-size: 28px!important;
+            }
+        }
+        p{
+            font-size: 18px!important;
+        }
+    }
+}
 @media screen and (min-width:860px) and (max-width: 1024px) {
     .section-facts-2 {
         .block-1 {
@@ -226,14 +248,24 @@
                 font-size: 12px;
             }
             .comparison-block {
-                padding-left: 0px;
+                padding-left: 30px;
                 margin-right: 50px;
                 .table-facts{
-                    box-shadow: -20px 20px 90px -30px #8a6a96;
                     td{
-                        font-size: 12px;
+                        font-size: 18px;
+                        span{
+                            font-size: 14px;
+                        }
                     }
                 }
+                .comparison{
+                    p{
+                        font-size: 18px!important;
+                    }
+                }
+            }
+            .comparison-details{
+                font-size: 15px!important;
             }
             .details-information{
                 margin: 0;
@@ -251,6 +283,11 @@
                     margin-left: 15%;
                     margin-right: 5%;
                 }
+                .decoration-with-logo{
+                    img{
+                        width: 130px!important;
+                    }
+                }
             }
         }
         .chemistry-facts {
@@ -262,6 +299,19 @@
         }
         .discover-btn {
             font-size: 12px;
+        }
+        .details-chemistry-facts{
+            .section-2-title{
+                h3{
+                    font-size: 25px!important;
+                }
+                img{
+                    width: 35px!important;
+                }
+            }
+            p{
+                font-size: 18px!important;
+            }
         }
 
     }
@@ -279,15 +329,26 @@
                 font-size: 12px;
             }
             .comparison-block {
-                padding-left: 0px;
+                padding-left: 10px;
                 margin-right: 70px;
                 .table-facts{
-                    box-shadow: -20px 20px 90px -30px #8a6a96;
                     td{
-                        font-size: 12px;
+                        font-size: 14px;
+                        span{
+                            font-size: 14px;
+                        }
                     }
                 }
+                .comparison{
+                    p{
+                        font-size: 16px!important;
+                    }
+                }
+                .comparison-details{
+                    font-size: 14px!important;
+                }
             }
+           
             .details-information{
                 margin: 0;
                 padding-top: 10px;
@@ -304,6 +365,11 @@
                     margin-left: 15%;
                     margin-right: 5%;
                 }
+                .decoration-with-logo{
+                    img{
+                        width: 130px!important;
+                    }
+                }
             }
         }
         .chemistry-facts {
@@ -318,6 +384,19 @@
     .discover-btn {
         font-size: 12px;
     }
-
+    
+  .details-chemistry-facts{
+        .section-2-title{
+            h3{
+                font-size: 25px!important;
+            }
+            img{
+                width: 35px!important;
+            }
+        }
+        p{
+            font-size: 18px!important;
+        }
+    }
 }
 
