@@ -88,7 +88,7 @@
           font-weight: 400; }
     .section-facts-2 .block-1 .details-information {
       padding-top: 50px;
-      margin: 0 70px 0 -19px;
+      margin: 0 56px 0 25px;
       font-size: 12px; }
       .section-facts-2 .block-1 .details-information .decoration-with-logo {
         display: flex;
@@ -138,11 +138,11 @@
     background-color: #ffffff;
     position: relative; }
     .section-facts-2 .chemistry-facts .details-chemistry-facts {
-      padding-left: 7%;
+      padding-left: 90px;
       width: 65%; }
       .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title {
         position: relative;
-        margin-top: -50px; }
+        margin-top: -80px; }
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title #loading:hover {
           box-shadow: none !important; }
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title h3 {
@@ -154,8 +154,8 @@
           font-size: 40px; }
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
           position: absolute;
-          right: 30px;
-          top: 0px; }
+          right: 80px;
+          top: 10px; }
       .section-facts-2 .chemistry-facts .details-chemistry-facts span {
         color: #CECEC3;
         font-family: 'Open Sans';
