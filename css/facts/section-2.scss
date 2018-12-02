@@ -102,16 +102,22 @@
         }
         .details-information {
             padding-top: 50px;
-            margin: 0 56px 0 25px;
+            margin: 0 35px 0 25px;
             font-size: 12px;
             .decoration-with-logo{
                 display: flex;
                 align-items: center;
                 img{
-                    width: 200px;
+                    width: 180px;
                     padding-right: 5px;
                 }
             }
+            @media screen and (min-width: 1260px){
+                p{
+                    width: 600px!important;
+                }
+            }
+            
             .discover-btn{
                 margin: 0px 30px 30px 0px;
             }   
@@ -120,7 +126,7 @@
                 font-weight: 600;
                 color: #494949;
                 margin-bottom: 0px;
-                font-size: 35px;
+                font-size: 30px;
             }
             h4 {
                 font-family: 'Open Sans';
@@ -135,7 +141,7 @@
                 font-family: 'Open Sans';
                 color: #101010;
                 font-weight: 300;
-                font-size: 20px;
+                font-size: 18px;
                 margin: 0;
             }
             .text-decoration {
@@ -149,8 +155,10 @@
                     display: flex;
                     padding-bottom: 20px;
                     align-items: flex-start;
+
                     p {
                         margin: 0 0 10px 0;
+                        width: 535px!important;
                     }
                     img {
                         margin-right: 10px;
@@ -181,13 +189,13 @@
                     color: #000000;
                     margin-bottom: 0px;
                     margin-top: 0;
-                    font-size: 40px;
+                    font-size: 35px;
                 }
                 img{
                     position: absolute;
-                    right: 80px;
+                    right: 170px;
                     top: 0px;
-                    width: 60px;
+                    width: 55px;
 
                 }
             }
@@ -201,8 +209,8 @@
                 font-family: 'Open Sans';
                 color: #101010;
                 font-weight: 300;
-                font-size: 23px;
-                width: 93%;
+                font-size: 20px;
+                width: 695px;
             }
         }
         .chemistry-image {    
@@ -215,20 +223,29 @@
         }
     }
 }
-@media screen and (min-width:1024px) and (max-width: 1260px) {
-     .details-information{
-        margin: 0;
-        padding-top: 10px;
-        margin-right: 5%;
-        .decoration-with-logo{
-            img{
-                width: 130px!important;
-            } 
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+    .block-1{
+        .details-information{
+            margin: 0;
+            padding-top: 10px;
+            margin-right: 5%;
+            .decoration-with-logo{
+                img{
+                    width: 130px!important;
+                } 
+            }
+            h3{
+                font-size: 25px!important;
+            }
+            .res-p{
+                width:500px!important;
+            }
         }
-        h3{
-            font-size: 25px!important;
+        .info-about{
+            width: 490px!important;
         }
     }
+     
     .details-chemistry-facts{
         .section-2-title{
             h3{
@@ -251,13 +268,16 @@
             }
             .comparison-block {
                 padding-left: 30px;
-                margin-right: 50px;
+                margin-right: 0px;
                 .table-facts{
                     td{
                         font-size: 18px;
                         span{
                             font-size: 14px;
                         }
+                    }
+                    tr{
+                        height: 45px!important;
                     }
                 }
                 .comparison{
@@ -275,6 +295,11 @@
                 .info-about{
                     margin-left: 15%;
                     margin-right: 5%;
+                    div{
+                        p{
+                            width: 400px!important;
+                        }
+                    }
                 }
                 h4{
                     margin-left: 15%;
@@ -282,7 +307,7 @@
                 }
                 h3{
                     font-size: 20px;
-                    margin-left: 15%;
+                    margin-left: 10%;
                     margin-right: 5%;
                 }
                 .decoration-with-logo{
@@ -309,10 +334,12 @@
                 }
                 img{
                     width: 35px!important;
+                    right: 140px!important;
                 }
             }
             p{
                 font-size: 18px!important;
+                /*width: */
             }
         }
 
@@ -332,13 +359,16 @@
             }
             .comparison-block {
                 padding-left: 10px;
-                margin-right: 20px;
+                margin-right: 0px;
                 .table-facts{
                     td{
                         font-size: 14px;
                         span{
                             font-size: 14px;
                         }
+                    }
+                    tr{
+                        height: 45px!important;
                     }
                 }
                 .comparison{
@@ -357,14 +387,21 @@
                 .info-about{
                     margin-left: 15%;
                     margin-right: 5%;
+                    div{
+                        p{
+                            width: 300px!important;
+                        }
+                    }
+                    
                 }
+               
                 h4{
                     margin-left: 15%;
                     margin-right: 5%;
                 }
                 h3{
                     font-size: 15px;
-                    margin-left: 15%;
+                    margin-left: 10%;
                     margin-right: 5%;
                 }
                 .decoration-with-logo{
@@ -394,6 +431,7 @@
             }
             img{
                 width: 35px!important;
+                right: 70px!important;
             }
         }
         p{

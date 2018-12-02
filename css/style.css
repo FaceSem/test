@@ -519,6 +519,7 @@ body {
     .menu li a {
         text-decoration: none;
         cursor: pointer;
+        font-weight: 600;
     }
 
     .menu li:nth-child(-n + 3) a {
@@ -592,7 +593,7 @@ body {
     }
 
     .menu li:nth-of-type(-n+3) a {
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .menu-separator {
