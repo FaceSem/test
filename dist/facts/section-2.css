@@ -155,7 +155,8 @@
         .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
           position: absolute;
           right: 80px;
-          top: 10px; }
+          top: 0px;
+          width: 60px; }
       .section-facts-2 .chemistry-facts .details-chemistry-facts span {
         color: #CECEC3;
         font-family: 'Open Sans';
@@ -165,7 +166,8 @@
         font-family: 'Open Sans';
         color: #101010;
         font-weight: 300;
-        font-size: 23px; }
+        font-size: 23px;
+        width: 93%; }
     .section-facts-2 .chemistry-facts .chemistry-image {
       position: absolute;
       top: -206px;

@@ -82,7 +82,7 @@ body {
 
 .green-line {
   border-bottom: 5px solid #ACFFC2;
-  width: 17%; }
+  width: 17% !important; }
 
 .blue-line {
   border-bottom: 7px solid #98CAFE;
