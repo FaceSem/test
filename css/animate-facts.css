@@ -304,9 +304,9 @@
 
 /*Delay with images*/
 .change-img{
-  animation: blinker 1s ease-in-out;
+  animation: blinker 15s infinite;
   animation-fill-mode: both;
-  opacity: 0;
+  /*opacity: 0;*/
 }
 .image-background {
   	animation: blinker 1s ease-in-out;
@@ -315,6 +315,9 @@
 @keyframes blinker {
   	0% { opacity: 0; }
  	100% { opacity: 1; }
+}
+.display-1{
+    display: none;
 }
 
 .img-1{ animation-delay: 1s }
@@ -331,6 +334,7 @@
 .img-12{ animation-delay: 12s }
 .img-13{ animation-delay: 13s }
 .img-14{ animation-delay: 14s }
+
 
 /*Pulse animation*/
 #pulse-1{ animation-delay: 1s;}

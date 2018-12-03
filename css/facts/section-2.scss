@@ -12,7 +12,7 @@
         background-image: -webkit-linear-gradient(79deg, #ffffff 26%, #F6F9FF 26%);
         min-height: 1150px;
         .comparison-block {
-            padding-left: 90px;
+            padding-left: 60px;
             background: url(../../img/facts/123.png) no-repeat 20% 95%;
             background-size: contain;
             margin-top: 60px;
@@ -41,7 +41,7 @@
                     line-height: 60px;
                     img {
                         position: absolute;
-                        top: -8px;
+                        top: -10px;
                         left: 20px;
                     }
                     p {
@@ -49,15 +49,15 @@
                         width: 100%;
                         color: #595959;
                         font-size: 27px;
-                        padding-top: 10px;
                     }
                 }
                 .comparison-details {
-                    font-size: 16px;
+                    font-size: 14px;
                     font-family: 'Open Sans';
                     background-color: #F3F3F3;
                     font-weight: 400;
-                    padding: 5% 2%;
+                    padding: 5% 0%;
+                    text-align: center;
                     margin-bottom: 5%;
                     border-bottom: none;
                     border-bottom-left-radius: 20px;
@@ -69,7 +69,6 @@
                     font-weight: 400;
                     font-family: 'Open Sans';
                     padding: 3% 2%;
-                    margin-bottom: 5%;
                 }
                 table {
                     width: 100%;
@@ -88,6 +87,7 @@
                     td {
                         line-height: 15px;
                         color: #595959;
+                        width: 175px;
                         img{
                             box-shadow: 0px 4px 12px 1px #a1a4a7;
                             border-radius: 100%;
@@ -102,7 +102,7 @@
         }
         .details-information {
             padding-top: 50px;
-            margin: 0 35px 0 25px;
+            margin: 0 35px 0 35px;
             font-size: 12px;
             .decoration-with-logo{
                 display: flex;
@@ -134,7 +134,7 @@
                 color: #595959;
                 margin-bottom: 0px;
                 padding-top: 10px;
-                font-size: 33px;
+                font-size: 30px;
                 padding-bottom: 15px;
             }
             p {
@@ -193,7 +193,7 @@
                 }
                 img{
                     position: absolute;
-                    right: 170px;
+                    right: 110px;
                     top: 0px;
                     width: 55px;
 
@@ -215,7 +215,7 @@
         }
         .chemistry-image {    
                 position: absolute;
-                top: -206px;
+                bottom: 10px;
                 right: 85px;
             img {
                 width: 230px;
@@ -287,7 +287,7 @@
                 }
             }
             .comparison-details{
-                font-size: 15px!important;
+                font-size: 14px!important;
             }
             .details-information{
                 margin: 0;

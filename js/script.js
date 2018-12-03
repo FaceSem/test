@@ -248,9 +248,17 @@ $(document).ready(function () {
     $(".menu-item-science").click(function(){
         $(this).find("i").toggleClass("fa-angle-down").toggleClass("fa-angle-up");
         $(".menu-science-subitems").fadeToggle();
+
     });
-    
+ 
+
 });
+    setInterval(function(){
+       $('.change-img').addClass('display-1');
+    },15000)
+    setInterval(function(){
+       $('.change-img').removeClass('display-1');
+    },16000)
 
     document.getElementById("defaultOpen").click();
     document.getElementById("defaultOpen-block-6").click();
